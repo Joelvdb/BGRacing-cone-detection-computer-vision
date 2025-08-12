@@ -32,7 +32,8 @@ Images were annotated in YOLO format, with bounding boxes around each cone.
 - **Epochs:** 50  
 - **Optimizer:** SGD (default YOLOv5 settings)  
 - **Command Used:**
-```bash
+```
+bash
 !python /content/yolov5/train.py \
     --workers 8 \
     --img 640 \
@@ -40,3 +41,13 @@ Images were annotated in YOLO format, with bounding boxes around each cone.
     --epochs 50 \
     --data /content/yolov5/data.yaml \
     --weights yolov5s.pt
+```
+
+---
+
+## Demo
+
+[![Cone Detection Video](https://github.com/Joelvdb/BGRacing-cone-detection-computer-vision/blob/main/Screenshot%202025-08-12%20at%2013.50.58.png)](https://github.com/Joelvdb/BGRacing-cone-detection-computer-vision/blob/main/cone-detection-video.mp4)
+
+---
+
